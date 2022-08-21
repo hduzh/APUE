@@ -1,0 +1,15 @@
+unbuffered io: open, read, write, lseek, close
+buffered io: fopen, fread, fwrite, getc, putc
+
+process:
+show process relations: proctree (pkgin -y install pstree)
+getpid of shell: echo $$
+fork, exec
+
+signals
+notify a process that a condition has occurred.
+1) allowed to cause the default action: terminate
+2) intentionally and explicitly ignored
+3) caught and control transferred to a user-defined function
+the login shell: ctrl + c, just print newline
+
