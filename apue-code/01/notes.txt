@@ -1,3 +1,7 @@
+c编程flag建议：
+echo "CFLAGS='-Wall -Werror -Wextra'" >> ~/.shrc
+echo "alias cc='cc \${CFLAGS}'" >> ~/.shrc
+
 unbuffered io: open, read, write, lseek, close
 buffered io: fopen, fread, fwrite, getc, putc
 
