@@ -1,0 +1,13 @@
+# TODO: vim 跳转 man page
+
+grep OPEN_MAX /usr/include/sys/syslimits.h
+-> #define OPEN_MAX 128
+
+getconf OPEN_MAX
+-> 1024
+
+which getconf
+-> /usr/bin/getconf
+
+vim /usr/src/usr.bin/getconf/getconf.c
+
